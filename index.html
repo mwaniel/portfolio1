@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+  </head>
+
+  <body>
+    <header class="header bg-dark">
+      <nav
+        id="navbar"
+        class="navbar nav-pills navbar-dark bg-dark fixed-top navbar-expand-lg"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#scrollspyHeading1"
+            >Daniel</a
+          >
+          <button
+            class="navbar-toggler text-white"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div
+            class="justify-content-end collapse navbar-collapse"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link text-white"
+                href="#scrollspyHeading2"
+                aria-current="page"
+                >Portfolio</a
+              >
+              <a class="nav-link text-white" href="#scrollspyHeading3">About</a>
+              <a class="nav-link text-white" href="#scrollspyHeading4"
+                >Contact</a
+              >
+              <a
+                class="nav-link text-white"
+                href="#scrollspyHeading4"
+                tabindex="-1"
+                aria-disabled="true"
+                ><img src="images/Icon-Mail.svg" alt="mail icon"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div
+      class="scroll"
+      data-bs-spy="scroll"
+      data-bs-target="#navbar-example2"
+      data-bs-offset="0"
+      tabindex="0"
+    >
+      <section class="headline" id="scrollspyHeading1">
+        <div class="headline-content">
+          <h1 class="greetings">Hey There. <br />I’m Daniel</h1>
+          <p class="my-job-title">I’am a Software Developer</p>
+          <p class="my-job-description">
+            I can help you build a product , feature or website Look through
+            some of my work and experience! If you like what you see and have a
+            project you need coded, don’t hestiate to contact me.
+          </p>
+        </div>
+        <div class="container social-icon-links">
+          <ul class="row g-md-3">
+            <li class="col-auto col-md-12">
+              <a href="#"><img src="images/github.svg" alt="github icon" /></a>
+            </li>
+            <li class="col-auto col-md-12">
+              <a href="#"
+                ><img src="images/linkedin.svg" alt="linkedin icon"
+              /></a>
+            </li>
+            <li class="col-auto col-md-12">
+              <a href="#"
+                ><img src="images/angellist.svg" alt="angellist icon"
+              /></a>
+            </li>
+            <li class="col-auto col-md-12">
+              <a href="#"
+                ><img src="images/twitter.svg" alt="twitter icon"
+              /></a>
+            </li>
+            <li class="col-auto col-md-12">
+              <a href="#"><img src="images/medium.svg" alt="medium icon" /></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="container works" id="scrollspyHeading2">
+        <ul class="row row-cols-auto works-grid">
+          <li class="col-12 works-title">
+            <div class="works-title-container">
+              <h1 class="recent-works-title">My Recent Works</h1>
+              <div class="recent-works-line"></div>
+            </div>
+          </li>
+          <li class="col-12 multi-post-stories">
+            <div class="multi-post-stories-image"></div>
+            <div class="multi-post-stories-container">
+              <h1 class="multi-post-stories-title">Multi-Post Stories</h1>
+              <p class="multi-post-stories-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a
+                standard dummy text.
+              </p>
+              <div class="container multi-post-stories-languages">
+                <ul class="row g-2 languages">
+                  <li class="col-auto language">
+                    <span class="badge bg-secondary">css</span>
+                  </li>
+                  <li class="col-auto language">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto language">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto language">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-primary multi-post-stories-button">
+                See Project
+              </button>
+            </div>
+          </li>
+          <li class="col card works-project">
+            <div class="card-body">
+              <h1 class="card-title works-project-title">
+                Profesional Art Printing Data
+              </h1>
+              <p class="card-text works-project-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <div class="container works-project-languages">
+                <ul class="row g-2">
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button
+                class="btn btn-primary align-self-end works-project-button"
+              >
+                See Project
+              </button>
+            </div>
+          </li>
+          <li class="col card works-project">
+            <div class="card-body">
+              <h1 class="card-title works-project-title">
+                Profesional Art Printing Data
+              </h1>
+              <p class="card-text works-project-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <div class="container works-project-languages">
+                <ul class="row g-2">
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-primary works-project-button">
+                See Project
+              </button>
+            </div>
+          </li>
+          <li class="col card works-project">
+            <div class="card-body">
+              <h1 class="card-title works-project-title">
+                Profesional Art Printing Data
+              </h1>
+              <p class="card-text works-project-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <div class="container works-project-languages">
+                <ul class="row g-2">
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-primary works-project-button">
+                See Project
+              </button>
+            </div>
+          </li>
+          <li class="col card works-project">
+            <div class="card-body">
+              <h1 class="card-title works-project-title">
+                Profesional Art Printing Data
+              </h1>
+              <p class="card-text works-project-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <div class="container works-project-languages">
+                <ul class="row g-2">
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-primary works-project-button">
+                See Project
+              </button>
+            </div>
+          </li>
+          <li class="col card works-project">
+            <div class="card-body">
+              <h1 class="card-title works-project-title">
+                Profesional Art Printing Data
+              </h1>
+              <p class="card-text works-project-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <div class="container works-project-languages">
+                <ul class="row g-2">
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-primary works-project-button">
+                See Project
+              </button>
+            </div>
+          </li>
+          <li class="col card works-project">
+            <div class="card-body">
+              <h1 class="card-title works-project-title">
+                Profesional Art Printing Data
+              </h1>
+              <p class="card-text works-project-content">
+                A daily selection of privately personalized reads; no accounts
+                or sign-ups required. has been the industry's standard
+              </p>
+              <div class="container works-project-languages">
+                <ul class="row g-2">
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">html</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">bootstrap</span>
+                  </li>
+                  <li class="col-auto">
+                    <span class="badge bg-secondary">Ruby</span>
+                  </li>
+                </ul>
+              </div>
+              <button class="btn btn-primary works-project-button">
+                See Project
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="about-me" id="scrollspyHeading3">
+        <h1 class="about-me-title">About me</h1>
+        <p class="about-me-content">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If you
+          like what you see and have a project you need coded, don’t hestiate to
+          contact me.
+        </p>
+        <button class="btn btn-primary about-me-button">Get My Resume</button>
+        <div class="about-me-line"></div>
+        <div class="container about-me-lists-container">
+          <div class="row row-cols-auto">
+            <ul class="col-12 col-md-4 about-me-lists">
+              <li class="about-me-list-header">
+                <div class="star"></div>
+                <h1>Language</h1>
+              </li>
+              <li class="about-me-list-item">Javascript</li>
+              <li class="about-me-list-item">Ruby</li>
+              <li class="about-me-list-item">Html</li>
+              <li class="about-me-list-item">Css</li>
+            </ul>
+            <ul class="col-12 col-md-4 about-me-lists">
+              <li class="about-me-list-header">
+                <div class="square"></div>
+                <h1>Frameworks</h1>
+              </li>
+              <li class="about-me-list-item">Bootstrap</li>
+              <li class="about-me-list-item">Ruby on Rails</li>
+              <li class="about-me-list-item">RSpec</li>
+              <li class="about-me-list-item">CapyBara</li>
+              <li class="about-me-list-item">Selenium</li>
+            </ul>
+            <ul class="col-12 col-md-4 about-me-lists">
+              <li class="about-me-list-header">
+                <div class="circle"></div>
+                <h1>Skills</h1>
+              </li>
+              <li class="about-me-list-item">Codekit</li>
+              <li class="about-me-list-item">Github</li>
+              <li class="about-me-list-item">Codepen</li>
+              <li class="about-me-list-item">Gitlab</li>
+              <li class="about-me-list-item">Terminal</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="contact-form" id="scrollspyHeading4">
+        <form
+          class="my-form"
+          action="https://formspree.io/f/mrgdbqpg"
+          method="POST"
+        >
+          <p class="contact-form-content">
+            I'm always interested in hearing about new projects, so if you'd
+            like to chat please get in touch.
+          </p>
+          <div class="contact-form-inputs">
+            <input
+              class="form-control contact-form-name"
+              type="text"
+              name="name"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+            <input
+              class="form-control contact-form-email"
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              class="form-control contact-form-message"
+              rows="3"
+              name="message"
+              placeholder="Enter text here"
+              maxlength="500"
+              required
+            ></textarea>
+            <button class="btn btn-primary contact-form-button" type="submit">
+              Get in touch
+            </button>
+          </div>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <div class="container">
+        <ul class="row justify-content-center footer-social-icons">
+          <li class="col-auto icon">
+            <a href="#"
+              ><img src="images/footer-github.svg" alt="github icon"
+            /></a>
+          </li>
+          <li class="col-auto icon">
+            <a href="#"
+              ><img src="images/footer-linkedin.svg" alt="linkedin icon"
+            /></a>
+          </li>
+          <li class="col-auto icon">
+            <a href="#"
+              ><img src="images/footer-angellist.svg" alt="angellist icon"
+            /></a>
+          </li>
+          <li class="col-auto icon">
+            <a href="#"
+              ><img src="images/footer-twitter.svg" alt="twitter icon"
+            /></a>
+          </li>
+          <li class="col-auto icon">
+            <a href="#"
+              ><img src="images/footer-medium.svg" alt="medium icon"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
