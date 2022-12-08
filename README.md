@@ -11,8 +11,7 @@
 
 ## Live Demo
 
-
-[Live Demo Link](/)
+[Live Demo Link](https://mwaniel.github.io/portfolio1/)
 
 
 ## Getting Started
